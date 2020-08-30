@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  font-size: 1.1rem;
+}
+.activeNav {
+  color: teal;
+}
+
+.postCard {
+  margin: 1.5rem auto;
+}
+.toggleBar {
+  background-color: rgb(191, 215, 216);
+}
+#toast-container {
+  top: 10%;
+}
+
+.delete {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
